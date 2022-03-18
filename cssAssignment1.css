@@ -1,22 +1,76 @@
+/*import fonts from Google*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Poppins:wght@100&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
     height: 100%;
 }
+
 .cover-nav ul {
     margin: 0;
+    text-align: center;
 }
-.cover {
+
+.cover-nav li {
+    display: inline;
+    padding: 1em;
+    font-size: 150%;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(225, 231, 231);
+}
+
+.cover-nav ul :hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.cover { /*This is the image banner*/
     background-image: url("coverwall.jpg");
+    background-color: rgba(0, 0, 0, .3);
+    background-blend-mode: multiply;
     background-size: cover;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
 }
+
 .cover-nav h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 300%;
+    color: rgb(225, 231, 231);
     text-align: center;
     position: absolute;
     top: 30%;
-    left: 47%;
+    left: 44%;
+}
+
+.About_Me_Main {
+    position: relative;
+}
+
+/*About me section*/
+.About_Me_Wrapper h1 {
+    text-align: center;
+}
+
+.About_Me_Wrapper h2{
+    text-indent: 7%;
+}
+
+.About_Me_Wrapper img{
+    padding: 20px;
+}
+
+.About_Me_Main ul {
+    margin: 0;
+    position: absolute;
+    left: 240px;
+    bottom: 300px;
+    list-style-type: disc;
+}
+
+.About_Me_Main li {
+    padding: .3em;
 }

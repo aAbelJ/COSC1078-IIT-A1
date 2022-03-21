@@ -6,6 +6,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 .cover-nav ul {
@@ -19,6 +20,12 @@ html, body {
     font-size: 150%;
     font-family: 'Poppins', sans-serif;
     color: rgb(225, 231, 231);
+}
+
+.cover-nav a {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(225, 231, 231);
+    text-decoration: none;
 }
 
 .cover-nav ul :hover {
@@ -56,21 +63,43 @@ html, body {
 }
 
 .About_Me_Wrapper h2{
-    text-indent: 7%;
+    text-indent: 46.5%;
 }
 
 .About_Me_Wrapper img{
     padding: 20px;
+    position: relative;
+    left: 35%;
 }
 
 .About_Me_Main ul {
     margin: 0;
     position: absolute;
-    left: 240px;
-    bottom: 300px;
+    left: 47%;
+    bottom: 110%;
     list-style-type: disc;
 }
 
 .About_Me_Main li {
     padding: .3em;
+}
+
+.About_Me_Body {
+    position: relative;
+    border: 1px rgba(128, 128, 128, 0) dashed;
+    border-radius: 10px;
+    width: 52%;
+    left: 23%;
+}
+
+.About_Me_Body h3{
+    position: relative;
+    text-indent: 46.5%;
+}
+
+.About_Me_Body p {
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    position: relative;
+    text-align: left;
 }

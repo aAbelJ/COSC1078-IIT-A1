@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.idealMain {
+    position: relative;
+    border: 1px rgba(128, 128, 128, 0) dashed;
+    border-radius: 10px;
+    width: 52%;
+    left: 27%;
+}
+
+.idealMain p {
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    position: relative;
+    text-align: left;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #495637;
+    color: white;
+    text-align: center;
+}

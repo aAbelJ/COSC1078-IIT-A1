@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="projectPlan.css" rel="stylesheet">
+<title>Project Plan</title>
+</head>
+    <body>
+        <div class="header">
+            <nav class="cover-nav"> 
+                <h1>Project Plan</h1>
+                <ul>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="idealJobA1.html">Ideal Job</a></li>
+                    <li>Project Plan</li>
+                    <li><a href="personalProfile.html">Personal Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="idealMain">
+        <h1>Project Plan</h1>
+        <h2>Motivation</h2>
+        <p>Agriculture is an integral part of human growth from the past till now and to the distant future. It’s fundamentally the core that helps humans to advance forward. However, according to plugandplaytechcenter.com, a global population of 9.7 billion is estimated by 2050 and so current farmers need to increase their production by 70% in order to meet the nutritious requirements. This is no easy task for farmers alone, hence why automation is important to assist farmers to efficiently work and meet standard requirements. For the average consumer, many like to grow plants at home but it can be a difficult task to keep them healthy. By using a similar concept to farmers, automation can assist taking care of plants by providing live feedback of the soil moisture level and the internal temperature of the greenhouse. 
+        </p>
+        <h2>Overview</h2>
+        <p>This project will be an automated greenhouse that has a mobile app to display the temperature inside the greenhouse as well as show the status of the fan and the window inside. There will also be a sprinkler to water the plants automatically at set times. The goal of this project is to control the temperature of the greenhouse; this is to prevent the plants inside from burning up during warm days. If the temperature goes above the set temperature then the fan will turn on and the window will open, this will all be notified through the mobile app. Once the temperature has gone below the set temperature then the fan will automatically turn off and the window will retract, a notification will also be sent through the app. The sprinklers will not help cool down the plants however there will be a sensor to check the dampness of the soil. If there isn’t much water in the soil, the motor will pump water from the reservoir. The project will be a demo model which shows how the components will work together.</p>
+        <h2>Tools and Technology</h2>
+        <p>This project will be controlled using an Arduino and a breadboard. To program the Arduino, the free open-source software called ‘Arduino IDE’ will be used from their website. The fan used will be a PC case fan and to detect temperature a thermistor will be used. For the window a servo motor will be installed and attached to it will be a small paper clip which will push the window open and close. To avoid soldering, jumper wires will be used to join components together. The sprinklers will be a small plastic tube and to detect the water in the soil, two nails (positive and negative) will be used to calculate the resistance. The greenhouse will be made out of wood so that the piece of plastic can be raised. To connect the Arduino to the mobile, a bluetooth module will be used. The app will be programmed on Android Studio. 
+        </p>
+        <h2>Description</h2>
+        <p>As mentioned in the overview, this project will be a demo model which will showcase the different automation features that theoretically will help plant growth while easing the load on the one looking after the plant. The features include a fan which aims to draw in cooler air from the outside and to circulate the air inside, a window which will act as an exit for the warmer air in the inside to escape, an automated sprinkler which will transfer water from the reservoir (a beaker) pumped by a motor to the plant based on the resistance of the soil moisture. For functional requirements the program will store logs based on the set interval and will show up on the console screen however will update the mobile app in longer intervals. This is to prevent the app from using too much of the device resource and to maintain consistency of the app performance (non-functional requirement). Another functional requirement is the fan and window setting, fan fan is either at max rpm (the set rpm) or 0 rpm and the window is fully open or closed.  This is to ensure the plants cool to the set temperature as quickly as possible. There will be a manual override function where the user can change some of the cooling functions or water the plants manually through the app. The purpose of the manual function is to gain full user control of the system in case the program fails at any time. As for non-functional requirements, the minimum version of Android it should run is Android 6 Marshmallow. There are still a number of users who will be using older devices and so by having a wider support range the app can incorporate more people.  The response time from the Arduino to the app must be under a second, this is to maintain data reliability and accuracy as the user needs to be able to check the plant in real time. The user may use different devices to connect to the system however only one device can control the system at a time, this is to prevent any duplicates of inputs inconsistent data outputs. Connection medium will be through bluetooth so the user device needs to have bluetooth. The development of the app will be done on Android Studio as it is a popular option to develop Android applications and has good support for Arduino as well. The frame of the greenhouse should be designed in a way where the user can replace the components whenever they fail or upgrade by themselves. This means using parts which can be used with everyday tools such as screws to mount the fan in place. A modular system is important as it improves the overall system maintainability.  The target audience for this project will primarily be plant enthusiasts, both beginners and experts who would like an automated system to maintain their plants. The target age group would be anyone above 15 as they would have the basic knowledge of technology and plants. </p>
+        <h2>Skills Required</h2>
+        <p>Inorder to complete this project, the program will be written on Arduino's open-source development environment. This is so that the code can be executed onto the Arduino via a USB cable. This means that basic levels of programming such as using an 'if' statement, understanding syntax to program an Arduino and knowledge on how to use a breadboard is required in order to complete the project. For the electronics it is necessary to know which terminals are positive and negative so that components work as intended. To develop the app it is necessary to be able to display the information logged on the Arduino console in a user friendly interface. Hands on skills with wood and tools to craft the greenhouse is not required however it will be useful when it comes to crafting the frame of the greenhouse. </p>
+        <h2>Outcome</h2>
+        <p>Since this project is originally a demo model, the expected outcome of the system is to successfully showcase the automated features such as the fan spinning and window opening based on temperature level as well as the sprinklers watering the plant based on the soil moisture. This solves the original problem as it incorporates automation into a more efficient home gardening, similar to how farmers use automation in their farms to increase the number of produce exports. This project can be a gateway into automating more everyday household items as well as be used as a teaching tool to explain the basics of home automation. </p>
+        <p><a href="https://www.plugandplaytechcenter.com/resources/how-automation-transforming-farming-industry/">Source</a>
+        </div>
+        </body>
+    <div class="footer">
+    <p>foot</p>
+    </div>
+</html>
